@@ -1,0 +1,5 @@
+.wrapper{
+        display: flex; /* flex 디스플레이 사용 */
+        flex-direction: column; /* flex 디스플레이 방향을 column으로 설정 */
+        overflow: scroll;  /* 스크롤바 생성 */
+    }

@@ -1,0 +1,83 @@
+#logintitle{
+    float: left;
+    margin-bottom: 25px;
+    font-size:30px;
+}
+#asideNav{
+    background-image: url('이미지/sidenav.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    height: 55%;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    padding: 15px;
+}
+#asideNavmain{
+    margin-top: 37%;
+    background-color: white;
+    width: 99%;
+    height: 79%;
+    border-radius: 15px;
+    border: 1px solid #802121;
+    box-shadow: inset 5px 5px 10px 5px rgb(77, 71, 71);
+}
+
+.login-form {
+    width: 75%;
+    background-color: #EEEFF1;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    border: gray solid 1px;
+}
+.text-field {
+    float: left;
+    font-size: 14px;
+    width: 60%;
+    height: 30px;
+}
+
+.submit-btn {
+    margin-top: 10%;
+    font-size: 25px;
+    width: 28%;
+    height: 70px;
+    background: linear-gradient(0deg, rgba(0,130,20,1) 0%, rgba(110,184,121,1) 77%, rgba(148,252,162,1) 93%, rgba(0,213,44,1) 100%);
+    color: white;
+    border-radius: 15px;
+}
+.links{
+    display: inline;
+    font-size: 23px;
+}
+.links a{
+    color: black;
+    text-decoration: none;
+    padding-right: 5px;
+}
+.links a:nth-child(2){
+    color: gray;
+    padding-left: 5px;
+}
+b{
+    color: lightgreen;
+}
+
+#asideNavmain ul{
+    font-size: 28px;
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 5%;
+    margin: 5%;
+}
+
+#asideNavmain ul li {
+    margin: 5%;
+}

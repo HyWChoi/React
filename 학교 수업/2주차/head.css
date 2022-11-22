@@ -1,0 +1,60 @@
+#mainLogo{
+    width: 27vh;
+    height: 16vh;
+    position: relative;
+    display: inline-block;
+}
+#LogoImg{
+    top: 40px;
+    align-items: center;
+    width: 40%;
+    position: absolute;
+}
+#Name{
+    font-size: 250%;
+    color: blue;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+#nav{
+    width: 83%;
+    height: 13.5vh;
+    display: inline-block;
+    overflow:hidden;
+    margin-top: auto;
+}
+#main_nav{
+    margin-top: 2.5%;
+    border-radius: 35px;
+    width: 141vh;
+    height: 6vh;
+    background: linear-gradient(0deg, rgba(0,130,20,1) 0%, rgba(110,184,121,1) 77%, rgba(148,252,162,1) 93%, rgba(0,213,44,1) 100%);
+}
+
+#main_nav ul{float: left;}
+#main_nav ul li {
+    display:inline;
+    border-left: 1px solid white;
+    padding: 0px 10% 0px 10%;
+    margin: 0px 10% 0px 10%;
+    font-size:150%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main_nav ul li:first-child {
+    border-left: none;
+}
+
+#upper_nav ul{float: right;margin-top: 1%}
+#upper_nav ul li {
+    display:inline;
+    border-left: 1px solid black;
+    padding: 0px 10% 0px 10%;
+    margin: 5% 0px 5px 0%;
+}
+#upper_nav ul li:first-child {
+    border-left: none;
+}

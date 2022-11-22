@@ -1,0 +1,6 @@
+.wrapper{
+        display: flex; /* 플렉스 설정 */
+        flex-direction: column; /* 그리드의 방향을 column으로 설정*/
+        height: 63vh; /* 높이를 63vh로 설정 */
+        overflow: scroll; /* 스크롤바를 생성 */
+    }

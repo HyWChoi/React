@@ -1,0 +1,11 @@
+.nav{
+        background-color: blue; /* 배경 색을 blue로 설정 */
+        color: white; /* 글자 색을 white로 설정 */
+        display: flex; /* 플렉스 설정 */
+        height: 80px; /* 높이를 80px로 설정 */
+        align-items: center; /* 수직 정렬을 가운데로 설정 */
+    }
+.navtitle{
+    font-size: 2rem; /* 글자 크기를 2rem으로 설정 */
+    margin: 1.5rem 0 1.5rem 2.5rem; /* 여백을 1.5rem 0 1.5rem 2.5rem으로 설정 */
+    }

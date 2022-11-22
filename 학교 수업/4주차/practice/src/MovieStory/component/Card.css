@@ -1,0 +1,27 @@
+.body{
+        display: flex; /* 플렉스 설정 */
+        flex-direction: row; /* 플렉스의 방향을 row으로 설정*/
+        gap: 2rem; /* gap을 2rem으로 설정 */
+        height: 63vh; /* 높이를 63vh로 설정 */
+    }
+    .img{
+        height: 63vh; /* 높이를 63vh로 설정 */
+    }
+    .cardcontent{
+        display: flex; /* 플렉스 설정 */
+        flex-grow: 1; /* 최대한 많은 공간 차지 */
+        flex-direction: column; /* 플렉스의 방향을 column으로 설정*/
+    }
+    .title{
+        font-size: 2.3rem; /* 글자 크기를 2.3rem으로 설정 */
+        color: yellow; /* 글자 색을 yellow로 설정 */
+        margin-bottom: 0.3rem; /* 아래 여백을 0.3rem으로 설정 */
+    }
+    .year{
+        color: black; /* 글자 색을 black으로 설정 */
+        margin-left: 1.5rem; /* 왼쪽 여백을 1.5rem으로 설정 */
+    }
+    .font{
+        margin-top: 0.3rem; /* 위 여백을 0.3rem으로 설정 */
+        font-size: 1.3rem; /* 글자 크기를 1.3rem으로 설정 */
+    }

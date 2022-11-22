@@ -1,0 +1,91 @@
+#main_img{
+    background-color: white;
+    border: 3px solid purple;
+    border-radius: 15px;
+    padding: 10px;
+    width: 97%;
+    height: auto;
+}
+
+#notice_section{
+    width: 97%;
+    height: 50%;
+    font-size: 25px;
+}
+#notice_section h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    margin-bottom: -0.1%;
+}
+#select{
+    float: right;
+    color: black;
+}
+#searchBox{
+    border: 2px black solid;
+    height: 25px;
+}
+#type-select{
+    background-color: white;
+    width: 100px;
+    height: 25px;
+}
+
+.notice{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size : 100%;
+    border-collapse: collapse;
+    width: 100%;
+    border-top: 5px solid gray;    
+    text-align: center;
+}
+thead tr {
+    background: whitesmoke;
+    height: 50px;
+}
+ 
+td{
+    height: 40px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-bottom:1px solid gray;
+}
+ 
+tr td:nth-child(2){
+    text-align: left;
+}
+tr td:nth-child(5){
+    text-align: right;
+    padding-right: 5%;
+}
+
+#tabletitle{
+    background-color: gray;
+}
+.grayButton{
+    float: right;
+    border-radius: 7px;
+    font-weight: bold;
+    color: white;
+    padding: 4px 25px 4px 25px;
+    margin: 0px 10px 0px 10px;
+    background: linear-gradient(0deg, rgba(149,143,143,1) 0%, rgba(190,182,182,1) 25%, rgba(189,184,184,1) 46%, rgba(199,199,199,1) 50%, rgba(190,182,182,1) 75%, rgba(149,143,143,1) 100%);
+}
+.blackButton{
+    float: right;
+    border-radius: 7px;
+    font-weight: bold;
+    color: white;
+    padding: 4px 25px 4px 25px;
+    margin: 0px 10px 0px 10px;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 25%, rgba(79,79,79,1) 50%, rgba(45,45,45,1) 75%, rgba(0,0,0,1) 100%);
+}
+
+
+#BeforeNext a{
+    text-decoration: none;
+    color: black;
+}
+#BeforeNext {
+    margin-left: 45%;
+}

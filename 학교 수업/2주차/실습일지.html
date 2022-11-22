@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>`
+    <link rel="stylesheet" href="frame.css">
+    <link rel="stylesheet" href="head.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="aside.css">
+    <script type="text/javascript" src="login.js"></script>
+</head>
+<body>
+    <wrapper id="wrapper">
+        <header id="header">
+            <div id="mainLogo">
+                <img src="이미지/가천대로고.png" alt="LOGO_IMG" id="LogoImg">
+                <div id="Name">최현우</div>
+            </div>
+            <nav id="nav">
+                <div id="upper_nav">
+                    <ul>
+                        <li>HOME</li>
+                        <li>LOGIN</li>
+                        <li>JOIN</li>
+                        <li>NOTICE</li>
+                    </ul>
+                </div>
+                <div id="main_nav">
+                    <ul>
+                        <li>자유 게시판</li>
+                        <li>기타 연주</li>
+                        <li>공동 구매</li>
+                        <li>연주회 안내</li>
+                        <li>회원 게시판</li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <aside id="aside">
+            <div class="login-form">
+                <div id="logintitle"><b>Member</b> LOGIN</div><br>
+                <form id="loginform">
+                  <input type="text" id="username" name="username" class="text-field" maxlength="20">
+                  <input type="password" id="password" name="password" class="text-field" maxlength="20">    
+                  <button type="button" class="submit-btn" onclick="loginCheck()">로그인</button>
+                </form><br>
+                <div class="links">
+                  <a href="#">회원가입</a> |
+                  <a href="#">아이디/비밀번호 찾기</a>
+                </div>
+            </div>
+            <div id="asideNav">
+                <div id="asideNavmain">
+                    <ul>
+                        <li>+ 자유 게시판</li>
+                        <li>+ 방명록</li>
+                        <li>+ 공지사항</li>
+                        <li>+ 등업요청</li>
+                        <li>+ 포토갤러리</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <section id="section">
+            <img src="이미지/main_img.png" alt="메인이미지" id="main_img">
+            <div id="notice_section">
+                <h1>자유게시판</h1>
+                <hr>
+                &#9655; 총 5개의 게시물들이 있습니다.
+                <div id="select">
+                    SELECT
+                    <select name="type" id="type-select">
+                        <option value="title">제목</option>
+                        <option value="writer">글쓴이</option>
+                    </select>
+                    <input type="search" id="searchBox">
+                    <button type="button" class="blackButton">검색</button>
+                </div><br>
+                <table class="notice">
+                    <thead>
+                        <tr>
+                            <th>번호</th>
+                            <th>제목</th>
+                            <th>글쓴이</th>
+                            <th>일시</th>
+                            <th>조회수</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td><td>힌남노가 끝난 뒤,...</td><td>홍길순</td><td>2022-09-08</td><td>7</td>
+                        </tr>
+                        <tr>
+                            <td>2</td><td>카카오 워크를 오픈하였는데,...</td><td>홍길동</td><td>2022-09-05</td><td>21</td>
+                        </tr>
+                        <tr>
+                            <td>3</td><td>문화탐방 후기</td><td>이순신</td><td>2022-09-05</td><td>171</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div id="BeforeNext">
+                    <a href="#">◀ 이전</a> | <a href="#">다음 ▶</a>
+                </div>
+                <button type="button" class="blackButton">글쓰기</button>
+                <button type="button" class="grayButton">목록</button>
+            </div>
+        </section>
+        <footer id="footer">
+            <hr>
+            <p>출저: HTML & CSS for beginner</p>
+        </footer>
+    </wrapper>
+</body>
+</html>
