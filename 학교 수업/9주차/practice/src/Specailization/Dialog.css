@@ -1,0 +1,17 @@
+button {
+    width: 7rem; 
+    margin-left: auto;
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+    font-size: 1rem;
+}
+h3 {
+    margin-top: .25rem;
+    margin-left: .5rem;
+}
+p, ol {
+    margin-top: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: 1rem;
+}
